@@ -1,0 +1,56 @@
+.card {
+  width: 20vw;
+  height: 45vh;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(137, 228, 242, 0.15);
+  border-radius: 1.2em;
+  box-shadow: 0 4px 20px rgba(244, 239, 234, 0.7);
+  border: 2px solid rgba(173, 216, 230, 0.614);
+  overflow: hidden;
+  user-select: none;
+}
+
+
+.title {
+  font-weight: bold;
+  display: flex;
+  font-size: 2em;
+  align-items: center;
+  justify-content: space-between;
+  text-shadow: 1px 1px 2px rgb(204, 185, 185), 0 0 25px rgb(208, 208, 216), 0 0 5px darkblue;
+  margin-bottom: 0.5em;
+  text-decoration: none;
+
+}
+
+.cityname a {
+  text-decoration: none;
+  color: aqua;
+  text-shadow: none;
+}
+
+.cityname a:hover {
+  color: springgreen;
+}
+
+
+
+.btn {
+  width: 2em;
+  height: 2em;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  color: bisque;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.textContent {
+  font-size: 1.5em;
+  color: bisque;
+}

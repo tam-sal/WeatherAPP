@@ -1,0 +1,118 @@
+.navContainer {
+  width: 99vw;
+  max-height: 7rem;
+  background: rgb(3, 3, 61);
+  color: rgb(62, 200, 195);
+  display: flex;
+  padding: 1.5em;
+  justify-content: space-between;
+  border-bottom: 0.5em solid rgba(0, 255, 128);
+  border-radius: 0 0.8em 0.8em;
+  position: sticky;
+  top: 0;
+  margin-bottom: 2em;
+
+}
+
+.leftNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 30rem;
+}
+
+.appTitle {
+
+  margin-left: 1.5em;
+  font-weight: 900;
+  font-size: 2em;
+
+}
+
+
+.logoHenry {
+  border-radius: 0.5em 0.2em;
+  margin-left: 0.5em;
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: springgreen;
+  padding: 0.1em;
+  width: 2.5em;
+  font-size: 1.2em;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100%;
+  margin-right: 3em;
+  border: 0.19em solid rgb(212, 210, 210);
+  border-radius: 0.18em;
+}
+
+.formSize {
+  min-width: inherit;
+  min-height: inherit;
+  display: inline-flex;
+  justify-content: space-evenly;
+
+}
+
+.cityInput:invalid {
+  animation: shake 0.2s;
+  background: rgba(230, 122, 122, 0.567);
+}
+
+@keyframes shake {
+  25% {
+    transform: translateX(20px)
+  }
+
+  50% {
+    transform: translateX(-20px)
+  }
+
+  75% {
+    tranform: translateX(20px)
+  }
+}
+
+.formInputs {
+  max-height: 95%;
+  font-size: 1.3em;
+  padding: 0.5rem;
+
+}
+
+.rightBtn {
+  background: rgb(62, 200, 195);
+  border: 0.1em solid darkblue;
+  border-radius: 0.2em;
+  width: 5.5em;
+  color: rgb(82, 101, 114);
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.rightBtn[disabled] {
+  background: rgb(142, 141, 141);
+}
+
+.about {
+  margin-top: 0.5em;
+  margin-left: 55em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.about a {
+  color: rgba(0, 255, 255, 0.793);
+  letter-spacing: 1.5px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}

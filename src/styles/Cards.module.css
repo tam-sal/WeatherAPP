@@ -1,0 +1,14 @@
+.landing {
+  color: bisque;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 3em;
+  text-shadow: .25em .25em .6em rgba(157, 183, 235, 0.8);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
