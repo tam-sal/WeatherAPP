@@ -33,7 +33,7 @@ function App() {
   function onSearch(city) {
     let cityInput = city
     if (!checkDups(city)) {
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
         .then(response => response.json())
         .then(city => {
 

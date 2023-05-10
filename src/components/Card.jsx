@@ -18,7 +18,7 @@ function Card({ id, name, min, max, icon, onClose }) {
         <span>{max} °</span>
       </div>
 
-      <img className={cardstyle.image} src={"http://openweathermap.org/img/wn/" + icon + "@2x.png"} width={100} height={100} alt={name} />
+      <img className={cardstyle.image} src={"https://openweathermap.org/img/wn/" + icon + "@2x.png"} width={100} height={100} alt={name} />
 
     </div>
   )
